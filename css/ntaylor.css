@@ -213,9 +213,9 @@ section.success a.active {
   }
 }
 .btn-outline {
-  color: white;
+  color: #2c3e50;
   font-size: 20px;
-  border: solid 2px white;
+  border: solid 2px #2c3e50;
   background: transparent;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
@@ -225,8 +225,8 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
   color: #46b8da;
-  background: white;
-  border: solid 2px white;
+  background: #2c3e50;
+  border: solid 2px #46b8da;
 }
 .floating-label-form-group {
   position: relative;
