@@ -79,7 +79,7 @@ hr.star-primary {
   border-color: #2c3e50;
 }
 hr.star-primary:after {
-  background-color: white;
+  background-color: #e3e3e3;
   color: #2c3e50;
 }
 .img-centered {
@@ -249,13 +249,13 @@ section.success a.active {
 .btn-outline.active {
   color: #46b8da;
   background: white;
-  border: solid 2px white;
+  border: solid 2px #e3e3e3;
 }
 
 .btn-outline-dark {
   color: white;
   font-size: 20px;
-  border: solid 2px white;
+  border: solid 2px #e3e3e3;
   background: #46b8da;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
@@ -266,7 +266,7 @@ section.success a.active {
 .btn-outline-dark.active {
   color: #46b8da;
   background: #2c3e50;
-  border: solid 2px white;
+  border: solid 2px #e3e3e3;
 }
 .floating-label-form-group {
   position: relative;
@@ -574,4 +574,8 @@ footer .footer-below {
     transform: translateY(-15px);
     opacity: 0;
   }
+}
+
+.copyright{
+  color: #c9c9c9
 }
