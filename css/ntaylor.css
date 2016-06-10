@@ -2,6 +2,8 @@
 
 body {
   overflow-x: hidden;
+  background-color: #e3e3e3
+
 }
 p {
   font-size: 20px;
@@ -159,6 +161,7 @@ header .intro-text .skills {
 }
 section {
   padding: 100px 0;
+
 }
 section h2 {
   margin: 0;
