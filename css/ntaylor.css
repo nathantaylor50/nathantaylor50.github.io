@@ -213,9 +213,9 @@ section.success a.active {
   }
 }
 .btn-outline {
-  color: #2c3e50;
+  color: white;
   font-size: 20px;
-  border: solid 2px #2c3e50;
+  border: solid 2px white;
   background: transparent;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
@@ -225,8 +225,25 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
   color: #46b8da;
+  background: white;
+  border: solid 2px white;
+}
+
+.btn-outline-dark {
+  color: white;
+  font-size: 20px;
+  border: solid 2px white;
+  background: #46b8da;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+.btn-outline-dark:hover,
+.btn-outline-dark:focus,
+.btn-outline-dark:active,
+.btn-outline-dark.active {
+  color: #46b8da;
   background: #2c3e50;
-  border: solid 2px #46b8da;
+  border: solid 2px white;
 }
 .floating-label-form-group {
   position: relative;
@@ -385,4 +402,69 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+
+
+
+
+
+
+.back-outer {
+  position: relative;
+  margin: auto;
+  width: 70px;
+  margin-top: 0px;
+  cursor: pointer;
+}
+
+.back-inner {
+  width: inherit;
+  text-align: center;
+}
+
+.back-label {
+  font-size: .8em;
+  line-height: 4em;
+  text-transform: uppercase;
+  color: back;
+  transition: all .3s ease-in;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.back-inner:before, .back-inner:after {
+  position: absolute;
+  content: '';
+  height: 1px;
+  width: inherit;
+  background: black;
+  left: 0;
+  transition: all .3s ease-in;
+}
+
+.back-inner:before {
+  top: 50%;
+  transform: rotate(45deg);
+}
+
+.back-inner:after {
+  bottom: 50%;
+  transform: rotate(-45deg);
+}
+
+.back-outer:hover label {
+  opacity: 1;
+}
+
+.back-outer:hover .back-inner:before,
+.back-outer:hover .back-inner:after {
+  transform: rotate(0);
+}
+
+.back-outer:hover .back-inner:before {
+  top: 0;
+}
+
+.back-outer:hover .back-inner:after {
+  bottom: 0;
 }
