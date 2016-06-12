@@ -601,7 +601,6 @@ a:hover .arrow:after {
  height: 3.5em;
  border: 0.5em solid #2c3e50;
  border-radius: 60%;
- margin-left: 0.75em;
  bottom: 0;
 }
 
@@ -691,7 +690,7 @@ hr.gamecontroller-primary {
 }
 hr.gamecontroller-light:after,
 hr.gamecontroller-primary:after {
-  content: "\f1b2";
+  content: "\f11b";
   font-family: FontAwesome;
   display: inline-block;
   position: relative;
@@ -712,4 +711,105 @@ hr.gamecontroller-primary {
 hr.gamecontroller-primary:after {
   background-color: #e3e3e3;
   color: #2c3e50;
+}
+
+hr.paperplane-light,
+hr.paperplane-primary {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+}
+hr.paperplane-light:after,
+hr.paperplane-primary:after {
+  content: "\f1d8";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+}
+hr.paperplane-light {
+  border-color: white;
+}
+hr.paperplane-light:after {
+  background-color: #46b8da;
+  color: white;
+}
+hr.paperplane-primary {
+  border-color: #2c3e50;
+}
+hr.paperplane-primary:after {
+  background-color: #e3e3e3;
+  color: #2c3e50;
+}
+
+hr.coffee-light,
+hr.coffee-primary {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+}
+hr.coffee-light:after,
+hr.coffee-primary:after {
+  content: "\f0f4";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+}
+hr.coffee-light {
+  border-color: white;
+}
+hr.coffee-light:after {
+  background-color: #46b8da;
+  color: white;
+}
+hr.coffee-primary {
+  border-color: #2c3e50;
+}
+hr.coffee-primary:after {
+  background-color: #e3e3e3;
+  color: #2c3e50;
+}
+.btn3d {
+    position:relative;
+    top: -6px;
+    border:0;
+     transition: all 40ms linear;
+     margin-top:10px;
+     margin-bottom:10px;
+     margin-left:2px;
+     margin-right:2px;
+
+     padding: 10px 16px;
+     font-size: 18px;
+     line-height: 1.3333333;
+     border-radius: 6px;
+}
+.btn3d:active:focus,
+.btn3d:focus:hover,
+.btn3d:focus {
+    -moz-outline-style:none;
+         outline:medium none;
+}
+.btn3d:active, .btn3d.active {
+    top:2px;
+}
+
+.btn3d.btn-primary {
+    box-shadow:0 0 0 1px #2390b0 inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #2390b0, 0 8px 8px 1px rgba(0,0,0,0.5);
+    background-color:#46b8da;
+}
+.btn3d.btn-primary:active, .btn3d.btn-primary.active {
+    box-shadow:0 0 0 1px #417fbd inset, 0 0 0 1px rgba(255,255,255,0.15) inset, 0 1px 3px 1px rgba(0,0,0,0.3);
+    background-color:#2390b0;
 }
