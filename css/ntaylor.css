@@ -364,6 +364,8 @@ footer .footer-below {
   border-radius: 100%;
   line-height: 28px;
 }
+
+
 .scroll-top .btn:focus {
   outline: none;
 }
@@ -378,6 +380,8 @@ footer .footer-below {
   text-align: center;
   background-color:  #e3e3e3
 }
+
+
 .portfolio-modal .modal-content h2 {
   margin: 0;
   font-size: 3em;
