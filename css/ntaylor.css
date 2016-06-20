@@ -2,7 +2,7 @@
 
 body {
   overflow-x: hidden;
-  background-color: #e3e3e3;
+  background-color: #e3e3e3
 
 }
 p {
@@ -606,7 +606,7 @@ a:hover .arrow:after {
  border: 0.5em solid #2c3e50;
  border-radius: 50%;
  line-height: 0em;
- margin-top: 1.5em;
+ margin-top: 0.0em;
 }
 
 
@@ -950,10 +950,7 @@ Image credits: unsplash.com
     .hero h1 { font-size: 4em; }
 }
 
-
-
-
- .text3DBody  {
+.text3DBody  {
    font: 20px/1 'Source Sans Pro';
  }
 .text3DH1  {
